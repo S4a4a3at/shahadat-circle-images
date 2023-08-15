@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.first {
+    height: 5vh;
+    width: 5vh;
+    border: 2px solid rgb(96, 96, 96);
+    background-color: rgb(96, 96, 96);
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: margin-bottom 0.2s,
+    border-radius 0.2s,
+    background-color 0.2s,
+    height 0.2s,
+    width 0.2s;
+}
+.first:hover {
+    background-color: none;
+    background-image: url("https://img.freepik.com/free-photo/parks-mountains-reflection-mountain-decoration-garden_1417-1025.jpg?w=996&t=st=1692014151~exp=1692014751~hmac=931ab3cbba7e63de928bfa58793a11e34aa3402ff9a440142ad6375cccc8726b");
+    background-size: cover;
+    height: 30vh;
+    width: 30vh;
+}
+.second {
+    height: 5vh;
+    width: 5vh;
+    border: 2px solid rgb(96, 96, 96);
+    background-color: rgb(96, 96, 96);
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: margin-bottom 0.2s,
+    border-radius 0.2s,
+    background-color 0.2s,
+    height 0.2s,
+    width 0.2s;
+}
+.second:hover {
+    background-color: none;
+    background-image: url("https://img.freepik.com/premium-photo/winding-river-virgin-forest-valley-against-mountains_76964-970.jpg?w=900");
+    background-size: cover;
+    height: 30vh;
+    width: 30vh;
+}
+.third {
+    height: 5vh;
+    width: 5vh;
+    border: 2px solid rgb(96, 96, 96);
+    background-color: rgb(96, 96, 96);
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: margin-bottom 0.2s,
+    border-radius 0.2s,
+    background-color 0.2s,
+    height 0.2s,
+    width 0.2s;
+}
+.third:hover {
+    background-color: none;
+    background-image: url("https://img.freepik.com/free-photo/maldives-island_74190-478.jpg?w=740&t=st=1692014178~exp=1692014778~hmac=ded12b2e5f0439303d6e1765db3bb6c4a9f719ce617f69ea7f540188b318acfd");
+    background-size: cover;
+    height: 30vh;
+    width: 30vh;
+}
+.fourth {
+    height: 5vh;
+    width: 5vh;
+    border: 2px solid rgb(96, 96, 96);
+    background-color: rgb(96, 96, 96);
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: margin-bottom 0.2s,
+    border-radius 0.2s,
+    background-color 0.2s,
+    height 0.2s,
+    width 0.2s;
+}
+.fourth:hover {
+    background-color: none;
+    background-image: url("https://img.freepik.com/free-photo/clean-cascade-scenery-green-shore-tourism_1417-1353.jpg?w=360&t=st=1692014194~exp=1692014794~hmac=e121b4612044709d8f315e360d2442fc12dec834466f4d5abb0a0da549cd63d2");
+    background-size: cover;
+    height: 30vh;
+    width: 30vh;
+}
+.fifth {
+    height: 5vh;
+    width: 5vh;
+    border: 2px solid rgb(96, 96, 96);
+    background-color: rgb(96, 96, 96);
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: margin-bottom 0.2s,
+    border-radius 0.2s,
+    background-color 0.2s,
+    height 0.2s,
+    width 0.2s;
+}
+.fifth:hover {
+    background-color: none;
+    background-image: url("https://img.freepik.com/free-photo/seljalandsfoss-waterfall-during-sunset-beautiful-waterfall-iceland_335224-596.jpg?w=740&t=st=1692014211~exp=1692014811~hmac=6e42303d83c707a8934562792dd9abdca987ad63ba437bffce375feabeff8d26");
+    background-size: cover;
+    height: 30vh;
+    width: 30vh;
+}
+.main-bg-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.ball-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial;
+    transition: font-size 0.2s;
+}
+h1:hover {
+    font-size: 40px;
+}
+.main-bg-container div {
+    cursor: pointer;
+}
